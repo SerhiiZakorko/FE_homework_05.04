@@ -47,3 +47,19 @@ btn2.addEventListener("click", function () {
         blue.style.backgroundColor = "green"
     }
 })
+
+
+/* Решение задания №2
+const main = document.querySelector("main")
+const buttons = document.querySelectorAll(".btn")
+buttons.forEach(function(button){
+    button.addEventListener("click", function (event) {
+        if (event.target.id == "img") {
+            main.style.background = "url(./r001-020.jpg)"
+        } else {
+            const color = event.target.id
+            main.style.background = color
+        }
+    })
+})
+*/
